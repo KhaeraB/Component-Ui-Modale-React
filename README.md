@@ -1,4 +1,4 @@
-# React-modal-lib 
+# ui-modale-kb 
 
 ## Description
 A modal pluggin for react using `create-react-app`.
