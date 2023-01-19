@@ -1,7 +1,7 @@
 {
   "name": "ui-modale-kb",
   "description": "Modale component in react",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "repository": {
     "type": "git",
     "url": "https://github.com/KhaeraB/Component-Ui-Modale-React"
@@ -30,7 +30,7 @@
   },
   "peerDependencies": {
     "react": "^18.2.0",
-    "react-dom": "^18.2.0", 
+    "react-dom": "^18.2.0",
     "react-scripts": "5.0.1"
   },
   "eslintConfig": {
