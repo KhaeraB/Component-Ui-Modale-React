@@ -1,0 +1,23 @@
+.App{
+    display: flex;
+    flex-direction: row;
+    justify-content: center; 
+    width: 100%;
+}
+h1{
+    position: absolute; /* postulat de départ */
+    top: 40%; left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */ 
+}
+
+#myBtn{
+    padding: 10px;
+    border:none; 
+    border-radius: 15px;
+    color: #fff;
+    font-weight: bold;
+    background-color: green;
+    position: absolute; /* postulat de départ */
+    top: 50%; left: 50%; /* à 50%/50% du parent référent */
+    transform: translate(-50%, -50%); /* décalage de 50% de sa propre taille */
+}
