@@ -6,13 +6,13 @@ A modal pluggin for react using `create-react-app`.
 ## Installation
 Run the following command:
 
-`npm install @wikikhaera/ui-modale-kbmodal-lib`
+`npm install ui-modale-kb`
 
 
 ## How to use ?
 **1 - Import the pluggin :**
 
-`import {Modale} from "@wikikhaera/ui-modale-kb"`
+`import {Modale} from "ui-modale-kb"`
 
 
 **2 - Use this state :**
@@ -25,8 +25,8 @@ Run the following command:
 <Modale
     title="Enter your modal title here" 
     content ="Hello, your message here" 
-    showModal={displayModal} 
-    hideModal={()=>setDisplayModal(false)} 
+    displayModale={displayModale} 
+    onHide={() => setDisplayModale(false)} 
 />
 ```
 
