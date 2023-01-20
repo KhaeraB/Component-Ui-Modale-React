@@ -7,7 +7,7 @@
     "README.md"
   ],
   "module": "dist/index.js",
-  "version": "0.1.10",
+  "version": "0.1.11",
   "repository": {
     "type": "git",
     "url": "https://github.com/KhaeraB/Component-Ui-Modale-React"
