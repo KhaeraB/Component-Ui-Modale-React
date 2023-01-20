@@ -25,7 +25,7 @@ const Modale = ({ displayModale, onHide, title, content }) =>{
             <h3>{content}</h3>
           </div>
           <div className="modal-footer">
-            <button className="btn-close" onClick={onHide}>
+            <button className="btn_close" onClick={onHide}>
               Close
             </button>
           </div>

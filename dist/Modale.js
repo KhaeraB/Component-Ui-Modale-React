@@ -34,7 +34,7 @@ var Modale = function Modale(_ref) {
   }, /*#__PURE__*/_react.default.createElement("h3", null, content)), /*#__PURE__*/_react.default.createElement("div", {
     className: "modal-footer"
   }, /*#__PURE__*/_react.default.createElement("button", {
-    className: "btn-close",
+    className: "btn_close",
     onClick: onHide
   }, "Close")))));
 };

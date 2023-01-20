@@ -56,7 +56,7 @@
     text-decoration: none;
     cursor: pointer;
   }
-  .btn-close{
+  .btn_close{
       align-items: flex-end;  
       border: none; 
       border-radius: 15px; 
