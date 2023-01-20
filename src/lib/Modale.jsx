@@ -16,10 +16,10 @@ const Modale = ({ displayModale, onHide, title, content }) =>{
       >
         <div className="modal-content">
           <div className="modal-header">
+            <h2>{title}</h2>
             <span className="close" aria-hidden="true" onClick={onHide}>
               &times;
             </span>
-            <h2>{title}</h2>
           </div>
           <div className="modal-body">
             <h3>{content}</h3>

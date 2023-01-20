@@ -25,11 +25,11 @@ var Modale = function Modale(_ref) {
     className: "modal-content"
   }, /*#__PURE__*/_react.default.createElement("div", {
     className: "modal-header"
-  }, /*#__PURE__*/_react.default.createElement("span", {
+  }, /*#__PURE__*/_react.default.createElement("h2", null, title), /*#__PURE__*/_react.default.createElement("span", {
     className: "close",
     "aria-hidden": "true",
     onClick: onHide
-  }, "\xD7"), /*#__PURE__*/_react.default.createElement("h2", null, title)), /*#__PURE__*/_react.default.createElement("div", {
+  }, "\xD7")), /*#__PURE__*/_react.default.createElement("div", {
     className: "modal-body"
   }, /*#__PURE__*/_react.default.createElement("h3", null, content)), /*#__PURE__*/_react.default.createElement("div", {
     className: "modal-footer"
