@@ -73,12 +73,13 @@
     color: white;
   }
   
-  .modal-body {padding: 2px 16px;}
+  .modal-body {padding: 15px 16px;}
   
   .modal-footer {
-    padding:10px 16px;
+    padding:5px 16px;
     color: white;
         display: flex;
       flex-direction: row;
       justify-content: flex-end;
+      border: none;
   }
