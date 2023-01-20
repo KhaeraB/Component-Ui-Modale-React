@@ -37,12 +37,6 @@ export const Modale = ({ displayModale, onHide, title, content }) =>{
 
 Modale.propTypes = {
   displayModale: PropTypes.bool.isRequired,
-  onHide: PropTypes.func.isRequired,
-  title: PropTypes.string,
-  content: PropTypes.string
+  onHide: PropTypes.func.isRequired
 };
 
-Modale.defaultProps = {
-  onHide: () => {},
-  displayModale: true,
-};

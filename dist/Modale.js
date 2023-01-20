@@ -39,7 +39,3 @@ var Modale = function Modale(_ref) {
   }, "Close")))));
 };
 exports.Modale = Modale;
-Modale.defaultProps = {
-  onHide: function onHide() {},
-  displayModale: true
-};
