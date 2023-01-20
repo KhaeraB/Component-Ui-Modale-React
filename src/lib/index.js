@@ -1,3 +1,3 @@
-import Modale from "./components/Modale"; 
+import Modale from "./Modale"; 
 
 export {Modale}; 

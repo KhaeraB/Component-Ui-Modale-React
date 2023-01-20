@@ -10,4 +10,4 @@ Object.defineProperty(exports, "Modale", {
     return _Modale.default;
   }
 });
-var _Modale = _interopRequireDefault(require("./components/Modale"));
+var _Modale = _interopRequireDefault(require("./Modale"));
