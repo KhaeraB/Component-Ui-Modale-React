@@ -1,3 +1,3 @@
 import Modale from "./Modale"; 
 
-export {Modale}; 
+export default Modale; 

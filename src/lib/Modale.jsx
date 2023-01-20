@@ -6,7 +6,7 @@ import "./modale.css";
  * Component shoudl create a modal pop-up
  * ### Modal
  */
-export const Modale = ({ displayModale, onHide, title, content }) =>{
+const Modale = ({ displayModale, onHide, title, content }) =>{
   return displayModale &&(
     <>
       <div
@@ -35,8 +35,11 @@ export const Modale = ({ displayModale, onHide, title, content }) =>{
   );
 }; 
 
+export default Modale; 
+
 Modale.propTypes = {
   displayModale: PropTypes.bool.isRequired,
-  onHide: PropTypes.func.isRequired
+  onHide: PropTypes.func.isRequired,
+  title: PropTypes.string,
+  content: PropTypes.string
 };
-

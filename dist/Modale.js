@@ -4,7 +4,7 @@ var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefau
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-exports.Modale = void 0;
+exports.default = void 0;
 var _react = _interopRequireDefault(require("react"));
 require("./modale.css");
 /**
@@ -38,4 +38,5 @@ var Modale = function Modale(_ref) {
     onClick: onHide
   }, "Close")))));
 };
-exports.Modale = Modale;
+var _default = Modale;
+exports.default = _default;

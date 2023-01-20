@@ -4,10 +4,7 @@ var _interopRequireDefault = require("@babel/runtime/helpers/interopRequireDefau
 Object.defineProperty(exports, "__esModule", {
   value: true
 });
-Object.defineProperty(exports, "Modale", {
-  enumerable: true,
-  get: function get() {
-    return _Modale.default;
-  }
-});
+exports.default = void 0;
 var _Modale = _interopRequireDefault(require("./Modale"));
+var _default = _Modale.default;
+exports.default = _default;
