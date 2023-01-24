@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import {Modale} from "../lib/Modale";
+import Modale from "../lib/Modale";
 import "./index.css";
 
 
